@@ -71,6 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
       end 
     end 
   end 
+  holidays_that_need_bbq
 end
 
 
