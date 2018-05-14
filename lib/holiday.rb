@@ -51,7 +51,7 @@ def all_supplies_in_holidays(holiday_hash)
     seasons.capitalize!
   end
     puts "#{seasons_array.join(" ")}:"
-  holidays.each do |holidays, supplies|
+  holidays.each do |holiday, supplies|
 end
 
 def all_holidays_with_bbq(holiday_hash)
