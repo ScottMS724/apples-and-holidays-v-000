@@ -64,7 +64,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |seasons, holidays|
-    seasons.collect! do |holidays, supplies|
+    seasons.collect do |holidays, supplies|
       if supplies == "BBQ"
         holidays
       end 
