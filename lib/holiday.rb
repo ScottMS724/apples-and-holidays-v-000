@@ -53,6 +53,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season, holiday|
     season_string = season_to.s
+    season_array = 
     holiday.each do |attribute, supply|
       puts "#{season}: #{holiday}: #{supply}"
     end
