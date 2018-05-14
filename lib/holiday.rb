@@ -52,7 +52,6 @@ def all_supplies_in_holidays(holiday_hash)
   end
     puts "#{season_array.join(" ")}:"
   holidays.each do |
-    
 end
 
 def all_holidays_with_bbq(holiday_hash)
