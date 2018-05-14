@@ -56,7 +56,8 @@ def all_supplies_in_holidays(holiday_hash)
     holiday_array = holiday_string.split(" ")
     holiday_array.each do |holiday|
       holiday.capitalize!
-    end
+    end 
+    puts 
 end
 
 def all_holidays_with_bbq(holiday_hash)
