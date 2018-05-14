@@ -46,7 +46,7 @@ end
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |seasons, holidays|
     seasons_string = seasons.to_s
-    seasons_array = seasons_string.split("_")
+    seasons_array = seasons_string.split(" ")
     seasons_array.collect! do |seasons|
     seasons.capitalize!
   end
